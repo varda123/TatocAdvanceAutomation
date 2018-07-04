@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="11" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="example suite 1" duration-ms="18765" started-at="2018-07-04T08:42:59Z" finished-at="2018-07-04T08:43:18Z">
+    <groups>
+    </groups>
+    <test name="Regression suite 1" duration-ms="18765" started-at="2018-07-04T08:42:59Z" finished-at="2018-07-04T08:43:18Z">
+      <class name="testClass.restPage">
+        <test-method status="PASS" signature="verify_restPage()[pri:0, instance:testClass.restPage@5442a311]" name="verify_restPage" duration-ms="829" started-at="2018-07-04T08:43:11Z" finished-at="2018-07-04T08:43:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_restPage -->
+      </class> <!-- testClass.restPage -->
+      <class name="testClass.filePage">
+        <test-method status="PASS" signature="verify_filePage()[pri:0, instance:testClass.filePage@548e7350]" name="verify_filePage" duration-ms="5375" started-at="2018-07-04T08:43:12Z" finished-at="2018-07-04T08:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_filePage -->
+      </class> <!-- testClass.filePage -->
+      <class name="testClass.homePage">
+        <test-method status="PASS" signature="verify_homePage()[pri:0, instance:testClass.homePage@57baeedf]" name="verify_homePage" duration-ms="127" started-at="2018-07-04T08:43:03Z" finished-at="2018-07-04T08:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_homePage -->
+      </class> <!-- testClass.homePage -->
+      <class name="testClass.queryPage">
+        <test-method status="PASS" signature="verify_queryPage()[pri:0, instance:testClass.queryPage@53b32d7]" name="verify_queryPage" duration-ms="7979" started-at="2018-07-04T08:43:03Z" finished-at="2018-07-04T08:43:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_queryPage -->
+      </class> <!-- testClass.queryPage -->
+      <class name="testClass.hoverPage">
+        <test-method status="PASS" signature="verify_hoverPage()[pri:0, instance:testClass.hoverPage@343f4d3d]" name="verify_hoverPage" duration-ms="209" started-at="2018-07-04T08:43:03Z" finished-at="2018-07-04T08:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_hoverPage -->
+      </class> <!-- testClass.hoverPage -->
+      <class name="testClass.openDriver">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testClass.openDriver@42e26948]" name="beforeTest" is-config="true" duration-ms="3921" started-at="2018-07-04T08:42:59Z" finished-at="2018-07-04T08:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verify_openDriver()[pri:0, instance:testClass.openDriver@42e26948]" name="verify_openDriver" duration-ms="301" started-at="2018-07-04T08:43:03Z" finished-at="2018-07-04T08:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_openDriver -->
+      </class> <!-- testClass.openDriver -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- example suite 1 -->
+</testng-results>

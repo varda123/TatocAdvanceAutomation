@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="example suite 1" verbose="1" >
+  <test name="Regression suite 1" >
+    <classes preserve-order="true" parallel="false" thread-count="1">
+      <class name="testClass.openDriver"/>
+       <class name="testClass.homePage"/>
+         <class name="testClass.hoverPage"/>
+           <class name="testClass.queryPage"/>
+           <class name="testClass.restPage"/>
+             <class name="testClass.filePage"/>
+    </classes>
+ </test>
+</suite>
